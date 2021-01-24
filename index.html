@@ -1,0 +1,38 @@
+
+<script>
+attendanceSheet = ["James","John","Caroline","Janet","Shade","Tope","Kate"]
+
+function rowCall(register){
+    var result = "";
+    switch(register){
+        case 1:
+            return attendanceSheet[0]; 
+            break;
+        case 2:
+            return attendanceSheet[1]; 
+            break;
+        case 3:
+            return attendanceSheet[2]; 
+            break;
+        case 4:
+            return attendanceSheet[3]; 
+            break;
+        case 5:
+            return attendanceSheet[4]; 
+            break;
+        case 6:
+            return attendanceSheet[5]; 
+            break;
+        case 7:
+            return attendanceSheet[6]; 
+            break;
+        
+    }
+    
+
+    console.log(rowCall(4) + "\nPresent SIR!!!")
+
+}
+rowCall()
+//console.log(rowCall(1) + "\nPresent SIR!!!")
+</script>
