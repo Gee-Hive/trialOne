@@ -30,7 +30,7 @@ function rowCall(register){
     }
     
 
-    console.log(rowCall(4) + "\nPresent SIR!!!")
+    console.log(rowCall(1) + "\nPresent SIR!!!")
     console.log('I love programming')
     console.log('Coding is Awesome')
 
@@ -39,6 +39,7 @@ rowCall()
 
 var classList = ["Gold", "Brown","Purple", "Emerald", "Lemon","Diamond","Silver","Violet"]
 var attendanceSheet = ["James","John","Caroline","Janet","Shade","Tope","Kate"]
+
 function shareList(students) {
     if (students == attendanceSheet[0] ){
         return classList[0];
@@ -57,6 +58,12 @@ function shareList(students) {
     }else{
         return "You are not registered"
     }
+
+    console.log('Welcome to Coding Fellas')
+    console.log(shareList(attendanceSheet[3]) );
     
 }
+shareList();
+console.log('Welcome to Coding Fellas')
+console.log(shareList(attendanceSheet[2]));
 </script>
