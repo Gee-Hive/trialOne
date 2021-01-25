@@ -1,3 +1,20 @@
 <script>
-    var functions; 
+    function betgames(poll, pool){
+        if (poll == pool){
+            return 'Combo';
+        }else if (poll < pool ){
+            return 'Withdraw';
+        }else if (poll > pool){
+            return 'Gamble';
+        }else {
+            return 'i can not help ';
+        }
+
+        console.log(betgames(11, 22) + 'that game NOW!!!');
+        
+    }
+
+console.log(betgames(22, 22) + ' game NOW!!!');
+
+    
 </script>
