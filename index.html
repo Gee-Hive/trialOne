@@ -1,6 +1,6 @@
 
 <script>
-attendanceSheet = ["James","John","Caroline","Janet","Shade","Tope","Kate"]
+var attendanceSheet = ["James","John","Caroline","Janet","Shade","Tope","Kate"]
 
 function rowCall(register){
     var result = "";
@@ -36,5 +36,27 @@ function rowCall(register){
 
 }
 rowCall()
-//console.log(rowCall(1) + "\nPresent SIR!!!")
+
+var classList = ["Gold", "Brown","Purple", "Emerald", "Lemon","Diamond","Silver","Violet"]
+var attendanceSheet = ["James","John","Caroline","Janet","Shade","Tope","Kate"]
+function shareList(students) {
+    if (students == attendanceSheet[0] ){
+        return classList[0];
+    }else if (students == attendanceSheet[1]){
+        return classList[1];
+    }else if(students == attendanceSheet[2]){
+        return classList[2];
+    }else if (students == attendanceSheet[3]){
+        return classList[3];
+    }else if (students == attendanceSheet[4]){
+        return classList[4];
+    }else if(students == attendanceSheet[5]){
+        return classList[5];
+    }else if (students == attendanceSheet[6]){
+        return classList[6];
+    }else{
+        return "You are not registered"
+    }
+    
+}
 </script>
