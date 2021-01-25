@@ -30,9 +30,7 @@ function rowCall(register){
     }
     
 
-    console.log(rowCall(1) + "\nPresent SIR!!!")
-    console.log('I love programming')
-    console.log('Coding is Awesome')
+    console.log(rowCall(6) + "\nPresent SIR!!!")
 
 }
 rowCall()
@@ -56,14 +54,11 @@ function shareList(students) {
     }else if (students == attendanceSheet[6]){
         return classList[6];
     }else{
-        return "You are not registered"
+        return "You are not registered";
     }
-
-    console.log('Welcome to Coding Fellas')
-    console.log(shareList(attendanceSheet[3]) );
     
 }
 shareList();
-console.log('Welcome to Coding Fellas')
-console.log(shareList(attendanceSheet[2]));
+console.log('Welcome to Coding ' + attendanceSheet[5])
+console.log("You are in class " + shareList(attendanceSheet[5]));
 </script>
