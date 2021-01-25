@@ -26,16 +26,16 @@ function rowCall(register){
         case 7:
             return attendanceSheet[6]; 
             break;
+        default:
+            return "You are not qualified";
         
     }
     
-
-    console.log(rowCall(1) + "\nPresent SIR!!!")
-    console.log('I love programming')
-    console.log('Coding is Awesome')
-
 }
-rowCall()
+console.log(rowCall(8) + "\nPresent SIR!!!")
+
+
+
 
 var classList = ["Gold", "Brown","Purple", "Emerald", "Lemon","Diamond","Silver","Violet"]
 var attendanceSheet = ["James","John","Caroline","Janet","Shade","Tope","Kate"]
@@ -59,11 +59,19 @@ function shareList(students) {
         return "You are not registered"
     }
 
-    console.log('Welcome to Coding Fellas')
-    console.log(shareList(attendanceSheet[3]) );
+   
     
 }
-shareList();
-console.log('Welcome to Coding Fellas')
+console.log('Welcome to Coding ' + attendanceSheet[2])
 console.log(shareList(attendanceSheet[2]));
+
+
+var carList = {
+    "Lexus": "E360",
+    "Benz": "C300",
+    "Audi": "RX360"
+    
+}
+console.log(carList.Lexus)
+console.log(carList.Audi)
 </script>
