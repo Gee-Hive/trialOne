@@ -61,4 +61,121 @@ function shareList(students) {
 console.log('Welcome to Coding ' + attendanceSheet[5]);
 console.log("You are in class " + shareList(attendanceSheet[5]));
 
+
+
+
+
+var val = ["nsg", "kate","winslet","joe"]
+
+var CarList = {
+    "E300":"Lexus",
+    "C300":"Benz",
+    "G200":"Toyota",
+    "RX350":"Porsche"
+}
+
+function shuffle(val){
+    switch(val){
+        case 1:
+            return CarList.E300 
+        case 2:
+            return CarList.C300 
+        case 3:
+            return CarList.G200
+        case 4:
+            return CarList.RX350
+            default:
+                return "Nothing"
+            
+    }
+}
+
+console.log(shuffle(1) +  " Belongs to " +val[0])
+console.log(shuffle(2) +  " Belongs to " +val[1])
+console.log(shuffle(3) +  " Belongs to " +val[2])
+
+
+function gameShuffle(val) {
+    var result = "";
+
+    var gameList = {
+        "disk1":"GTA",
+        "disk2":"FiFA",
+        "disk3":"PES",
+        "disk4":"Call of Duty",
+    }
+    return result = gameList[val]
+}
+
+console.log(gameShuffle("disk2"));
+
+var entertainment;
+
+entertainment = [
+    {
+        "artist":"Billy Joel",
+        "title":"piano Man",
+        "release_year": 1973,
+        "formats":["CD","8T","LP"],
+        "gold":true
+
+    },
+
+    {
+        "artist":"Zlatan",
+        "title":"To the world",
+        "releaseYear":2020,
+        "format":["Youtube","Shazam"],
+        "brown":false
+    
+    }
+    
+]
+
+console.log(entertainment[1].format[1]);
+
+var myStorage = {
+    "car":{
+        "drawer":{
+            "files":"certificate",
+            "books":"Math Textbooks",
+        }
+    }
+}
+
+console.log(myStorage.car.drawer.files)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
